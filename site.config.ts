@@ -2,24 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'b9b66c1c81e341b6a55891c58f3138a6',
+  rootNotionPageId: 'a8ab246430a74c148a5e568e1f925c87',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Chaindesk.ai - Blog',
-  domain: 'www.chaindesk.ai/blog',
+  name: 'Explore ChatbotGPT Help Center: AI Insights & Tips',
+  domain: 'www.chaindesk.ai/help',
   author: 'Georges Petrov',
 
   // open graph metadata (optional)
-  description: 'Blog - Chaindesk.ai - Build your own ChatBPT bot',
+  description:
+    'Visit the ChatbotGPT Help Center for insights on prompt types, message suggestions, agent rate limits, and more! Unlock the power of AI here',
 
   // social usernames (optional)
   twitter: 'chaindesk_ai',
   // github: 'transitive-bullshit',
-  linkedin: 'chaindesk',
+  linkedin: 'company/chaindesk',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -49,7 +50,7 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
+  // important pages
   navigationStyle: 'default'
   // navigationStyle: 'custom',
   // navigationLinks: [
