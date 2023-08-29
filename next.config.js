@@ -8,7 +8,7 @@ module.exports = withBundleAnalyzer({
   basePath: '/blog',
   assetPrefix:
     process.env.NODE_ENV === 'production'
-      ? 'https://chaindesk-blog.vercel.app'
+      ? 'https://chaindesk-blog.vercel.app/blog'
       : undefined,
   images: {
     domains: [
