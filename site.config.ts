@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Chaindesk.ai - Blog',
-  domain: 'blog.chaindesk.ai',
+  domain: 'www.chaindesk.ai/blog',
   author: 'Georges Petrov',
 
   // open graph metadata (optional)
