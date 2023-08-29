@@ -5,7 +5,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
-  assetPrefix: 'https://chaindesk-blog.vercel.app',
+  basePath: '/blog',
+  assetPrefix:
+    process.env.NODE_ENV === 'production'
+      ? 'https://chaindesk-blog.vercel.app'
+      : undefined,
   images: {
     domains: [
       'www.notion.so',
