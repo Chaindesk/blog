@@ -5,10 +5,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
-  basePath: '/blog',
+  basePath: '/help',
   assetPrefix:
     process.env.NODE_ENV === 'production'
-      ? 'https://chaindesk-blog.vercel.app/blog'
+      ? 'https://help-center-wine.vercel.app/help'
       : undefined,
   images: {
     domains: [
@@ -21,7 +21,7 @@ module.exports = withBundleAnalyzer({
       'transitivebullsh.it',
       'chaindesk.ai',
       'www.chaindesk.ai',
-      'chaindesk-blog.vercel.app'
+      'help-center-wine.vercel.app'
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,

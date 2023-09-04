@@ -15,10 +15,10 @@ export const mapPageUrl =
     const pageUuid = parsePageId(pageId, { uuid: true })
 
     if (uuidToId(pageUuid) === site.rootNotionPageId) {
-      return createUrl('/blog', searchParams)
+      return createUrl('/help', searchParams)
     } else {
       return createUrl(
-        `/blog/${getCanonicalPageId(pageUuid, recordMap, { uuid })}`,
+        `/help/${getCanonicalPageId(pageUuid, recordMap, { uuid })}`,
         searchParams
       )
     }
