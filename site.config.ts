@@ -9,13 +9,13 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Explore ChatbotGPT Help Center: AI Insights & Tips',
+  name: 'Explore Chaindesk Help Center: AI Insights & Tips',
   domain: 'www.chaindesk.ai/help',
   author: 'Georges Petrov',
 
   // open graph metadata (optional)
   description:
-    'Visit the ChatbotGPT Help Center for insights on prompt types, message suggestions, agent rate limits, and more! Unlock the power of AI here',
+    'Visit the Chaindesk Help Center for insights on prompt types, message suggestions, agent rate limits, and more! Unlock the power of AI here',
 
   // social usernames (optional)
   twitter: 'chaindesk_ai',

@@ -21,6 +21,8 @@ module.exports = withBundleAnalyzer({
       'transitivebullsh.it',
       'chaindesk.ai',
       'www.chaindesk.ai',
+      'chatbotgpt.ai',
+      'www.chatbotgpt.ai',
       'help-center-wine.vercel.app'
     ],
     formats: ['image/avif', 'image/webp'],
