@@ -142,7 +142,7 @@ export const apiHost = isDev
   ? host
   : `https://${process.env.VERCEL_URL || domain}`
 
-export const apiBaseUrl = `/blog/api`
+export const apiBaseUrl = `/help/api`
 
 export const api = {
   searchNotion: `${apiBaseUrl}/search-notion`,
