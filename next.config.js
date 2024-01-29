@@ -20,6 +20,7 @@ module.exports = withBundleAnalyzer({
       's3.us-west-2.amazonaws.com',
       'transitivebullsh.it',
       'chaindesk.ai',
+      'www.chaindesk.ai',
       'chaindesk-blog.vercel.app'
     ],
     formats: ['image/avif', 'image/webp'],
